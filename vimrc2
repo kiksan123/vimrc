@@ -1,0 +1,2 @@
+nnoremap <silent><C-n> :NERDTreeToggle<CR>
+autocmd BufNewFile,BufRead *.py nnoremap <C-e> :!python %
